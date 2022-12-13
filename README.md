@@ -8,4 +8,4 @@ Building this project took 3 main parts, Calculating the average vectors for the
 
 In order to run it, you import the gradle file into android studio and it will be able to build the app in the ide. You have to setup an android virtual device above android 21 in order to run the app.
 
-
+https://clipchamp.com/watch/3WEtCSuECzc
