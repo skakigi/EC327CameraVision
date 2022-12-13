@@ -1,9 +1,9 @@
 % general code
 
 [Banana, Apple, Orange] = read_matrices;
-BA = fruit_vector_average(Banana);
-AA = fruit_vector_average(Apple);
-OA = fruit_vector_average(Orange);
+BA = int16(round(fruit_vector_average(Banana)));
+AA = int16(round(fruit_vector_average(Apple)));
+OA = int16(round(fruit_vector_average(Orange)));
 csvwrite('Average_Banana.csv', BA);
 csvwrite('Average_Apple.csv', AA);
 csvwrite('Average_Orange.csv', OA);
